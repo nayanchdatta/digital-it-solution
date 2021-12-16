@@ -118,7 +118,7 @@ body{
 
 /* choose_section  */
 .choose_section{
-    background-image: linear-gradient(to bottom, rgb(243, 241, 241) 70%, rgb(255, 255, 255) 30%);
+    background-image: linear-gradient(to bottom, rgb(243, 241, 241) 60%, rgb(255, 255, 255) 40%);
 }
 .choose_section .text_para{
     margin-left: -40px;
@@ -274,4 +274,29 @@ body{
     border-radius: 50px;
     font-weight: 500;
     margin-right: 10px;
+}
+.footer_logo_para{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+/* Mobile responsive  */
+@media screen and (max-width: 992px) {
+    .feature_content h1{
+        font-size: 50px;
+    }
+    .stats_section{
+        height: 400px;
+    }
+    .choose_section .text_para{
+        margin-left: 0;
+    }
+    .email_subs{
+        width: 90%;
+    }
+    .footer_logo_para{
+        width: 100%;
+        text-align: justify;
+    }
 }
