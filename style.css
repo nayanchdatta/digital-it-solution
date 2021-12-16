@@ -236,6 +236,9 @@ body{
 .text-li{
     color: #c0bdbd;
 }
+.text-li:hover{
+    color: #ff6058;
+}
 
 .email_subs{
     height: 80px;
@@ -243,7 +246,7 @@ body{
     width: 50%;
     margin: auto;
 
-    margin-top: -50px;
+    margin-top: -60px;
 
 }
 
