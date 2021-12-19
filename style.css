@@ -281,7 +281,7 @@ body{
 }
 
 /* Mobile responsive  */
-@media screen and (max-width: 992px) {
+@media only screen and (max-width: 768px) {
     .feature_content h1{
         font-size: 50px;
     }
@@ -297,5 +297,17 @@ body{
     .footer_logo_para{
         width: 100%;
         text-align: justify;
+    }
+
+
+    .choose1 .btn1 {
+        bottom: 14px;
+        left: 0px;
+    }
+}
+@media only screen and (max-width: 576px){
+    .choose1 .btn1 {
+        bottom: 30px;
+        left: 60px;
     }
 }
